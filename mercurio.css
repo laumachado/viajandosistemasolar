@@ -1,0 +1,387 @@
+body{
+	margin: 0px;
+	width: 100%;
+	background-image: url(fundo.jpg);
+	
+ }
+
+.row{
+	width: 100%;
+}
+@media screen and (max-width: 900px){
+	.row{
+		display:flex;
+		flex-direction: column;
+		width:100%;
+	}
+}
+
+.col-2{
+	
+	display: flex;
+	flex-direction: column;
+	margin: 60px;
+}
+.col-4{
+	margin-left: 10%;
+
+}
+
+
+
+
+
+
+#Curiosidades{
+
+	width: 300px;
+	height: 60px;
+	background: #FFFF0040;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	font-size: 45px;
+	margin-bottom: 6px;
+	color: white;
+}
+#Curiosidades:hover{
+	background: #FFFF00;
+	color: black;
+}
+
+
+
+
+#Temperatura{
+
+	width: 300px;
+	height: 60px;
+	background: #FFFF0040;
+	font-size: 45px;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	margin-bottom: 6px;
+	color: white;
+}
+#Temperatura:hover{
+	background: #FFFF00;
+	color: black;
+}
+
+#Comp{
+
+	width: 300px;
+	height: 60px;
+	background: #FFFF0040;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	font-size: 35px;
+	color: white;
+
+}
+
+#Comp:hover{
+	background: #FFFF00;
+	color: black;
+}
+
+
+
+#distancia{
+
+	width: 300px;
+	height: 60px;
+	background: #FFFF0040;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	font-size: 35px;
+	margin-bottom: 6px;
+	color: white;
+
+}
+
+#distancia:hover{
+	background: #FFFF00;
+	color: black;
+}
+#dias{
+
+	width: 300px;
+	height: 60px;
+	background: #FFFF0040;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	font-size: 30px;
+	margin-bottom: 6px;
+	color: white;
+
+}
+
+#dias:hover{
+	background: #FFFF00;
+	color: black;
+}
+
+#voce{
+
+	width: 300px;
+	height: 60px;
+	background: #FFFF0040;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	color: white;
+}
+
+
+#voce:hover{
+	background: #FFFF00;
+	color: black;
+}
+
+
+.choose{
+	text-decoration: none;
+	color: white;
+}
+
+.choose:hover{
+	text-decoration: none;
+	color: black;
+}
+
+
+h2{
+	color: white;
+
+	font-family: 'Staatliches', cursive;
+
+	margin-left: 40px;
+}
+
+
+.p2{color: white;
+	text-align: justify;
+	font-size: 20px;
+    margin: 10px;
+    font-family: 'Nunito', sans-serif;}
+
+	
+
+
+	.title{
+	font-family: 'Staatliches', cursive;
+	color: #FFFF00;
+	text-align: center;
+	height: 20%;
+	width: 100%;
+	font-size: 100px;
+
+	
+
+	}
+
+	.p1{
+		background: #FFFF0040;
+		width: 90%;
+		margin: 3%;
+		height: 50%;
+
+
+
+	
+
+
+	}
+
+
+	.row-1{
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		margin: 0% 5% 0% 3%;
+		
+
+	}
+
+	.xuxu #sun-menu{
+		width: 100%;
+		height: 100%;
+
+		
+	}
+
+	 .xuxu  {
+		
+        color: transparent;
+        text-align: center;
+        font-size: 90%;
+        font-family:'Nunito', sans-serif;
+        text-decoration: none; 
+
+       
+
+
+	}
+
+.xuxu:hover  {
+	width: 9%;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+
+
+
+
+
+	 #merc-menu{
+		width: 100%;
+		height: 100%;
+	}
+
+	
+
+
+	#ven-menu{
+		width: 100%;
+		height: 100%;
+	}
+
+	#ter-menu{
+		width: 100%;
+		height: 100%;
+	}
+	#mar-menu{
+		width: 100%;
+		height: 100%;
+	}
+
+	#jup-menu{
+		width: 100%;
+		height: 100%;
+	}
+	#sat-menu{
+		width: 160%;
+		height: 100%;
+	}
+
+	#ura-menu{
+		width: 160%;
+		height: 100%;
+	}
+
+	#net-menu{
+		width: 100%;
+		height: 100%;
+		margin-left: 42%;
+	}
+
+
+#logo{
+	width: 80px;
+	height: 75px;
+	text-align: center;
+}
+
+.nav-a {
+    position:relative;
+    width:100%;
+    height:10%;
+    overflow:hidden;
+    text-align: center;
+    margin-right:20px
+}
+
+
+.nav-a .home {
+    margin:0;
+    padding:0;
+    position:relative;
+    cursor:pointer;
+    margin-left:-50px
+}
+.nav-a .home #logo{
+    
+    z-index:10;
+    text-align: center;
+   
+}
+.nav-a .home figcaption  {
+    display:block;
+    position:absolute;
+    z-index:5;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.nav-a .home  {
+    font-family:'Nunito', sans-serif;
+    color:#C9C9C9;
+    font-size:20px;
+    margin-top: 10px;
+    
+
+}
+
+.nav-a .home .pho {
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    padding:29px 44px;
+    text-align:center;
+    -webkit-transform:rotateY(-180deg);
+    -moz-transform:rotateY(-180deg);
+    transform:rotateY(-180deg);
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.nav-a .home  {
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.nav-a .home:hover #logo,.home.hover #logo{
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    transform:rotateY(180deg)
+}
+.nav-a .home:hover figcaption,.home.hover figcaption
+ {
+    -webkit-transform:rotateY(0);
+    -moz-transform:rotateY(0);
+    transform:rotateY(0)
+    width: 100%;
+	height: 120px;
+}
+.nav-a{
+	width: 100%;
+	height: 10%;
+	background:#FFFF00;
+	text-align: center;
+	border-radius: 0px 0px 20px 20px;
+
+	
+}
+
+
+.ele{
+	width: 17%;
+	margin: 20px 20px 20px 150px; 
+}
+
+
+.id-dist{
+	width: 70%;
+	margin-left: 20%;
+}
+
+.xuxu{
+	width: 7%;
+	height: 7%;
+	margin: 0% 1% 0% 1%;
+}
+

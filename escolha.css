@@ -1,0 +1,215 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background-image: url(fundo.jpg);
+	font-size: 40px;
+	justify-content: center;
+}
+.game-board {
+    display: grid;
+    grid-template-rows: 80% 80% 80%;
+    grid-template-columns: 40% 40% 40%;
+    justify-content: center;
+}
+.box {
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #AAA;
+}
+
+#sun{
+	width: 40%;
+	margin-top: 20px;
+}
+
+#merc{
+	width: 40%;
+	margin-top: -0px;
+	
+}
+
+#venus{
+	width: 40%;
+	margin-top: 10px;
+	
+}
+
+
+#terra{
+	width: 40%;
+	margin-top: -50px;
+	
+}
+#marte{
+	width: 40%;
+	margin-top: -50px;
+	
+}
+
+#jupiter{
+	width: 38%;
+	margin-top: -40px;
+	
+}
+
+#saturno{
+	width: 50%;
+	margin-top: -150px;
+	
+}
+
+
+#urano{
+	width: 50%;
+	margin-top: -150px;
+	margin-left: 10px;
+}
+
+#netuno{
+	width: 36%;
+	margin-top: -140px;
+	margin-left: 30px;
+}
+
+
+.nomes {
+	margin-top: 0px;
+}
+
+
+
+#merc1{
+	margin-top: 0px;
+}
+
+a{
+	font-family: 'Nunito', sans-serif;
+	color: white;
+	text-decoration: none;
+}
+
+
+
+.escolha{
+	font-family: 'Staatliches', cursive;
+	color: #FFFF00;
+	text-align: center;
+	font-size: 6.5rem;
+	width: 100%;
+	 
+
+}
+
+
+.nav{
+	width: 100%;
+	height: 10%;
+	background:#FFFF00;
+	text-align: center;
+	border-radius: 0px 0px 20px 20px;
+
+	
+}
+.visually-hidden{
+	position: absolute;
+}
+
+
+
+
+#logo{
+	width: 80px;
+	height: 75px;
+	text-align: center;
+}
+
+.nav {
+    position:relative;
+    width:100%;
+    height:80px;
+    overflow:hidden;
+    text-align: center;
+    margin-right:20px
+}
+
+
+.nav figure {
+    margin:0;
+    padding:0;
+    position:relative;
+    cursor:pointer;
+    margin-left:-50px
+}
+.nav figure #logo{
+    
+    z-index:10;
+    text-align: center;
+   
+}
+.nav figure figcaption {
+    display:block;
+    position:absolute;
+    z-index:5;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.nav figure h2 {
+    font-family:'Nunito', sans-serif;
+    color:#C9C9C9;
+    font-size:20px;
+    text-align:center;
+    margin-top: 10px;
+
+}
+.nav figure figcaption {
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    padding:29px 44px;
+    text-align:center;
+    backface-visibility:hidden;
+    -webkit-transform:rotateY(-180deg);
+    -moz-transform:rotateY(-180deg);
+    transform:rotateY(-180deg);
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.nav figure  {
+    backface-visibility:hidden;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.nav figure:hover img,figure.hover img {
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    transform:rotateY(180deg)
+}
+.nav figure:hover figcaption,figure.hover figcaption {
+    -webkit-transform:rotateY(0);
+    -moz-transform:rotateY(0);
+    transform:rotateY(0)
+    width: 100%;
+	height: 120px;
+}
+
+
+#sun1{
+	margin-top: 0px;
+}
+
+#ven1{
+
+	margin-left: 30px; 
+}
+
+

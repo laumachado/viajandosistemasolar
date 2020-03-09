@@ -1,0 +1,11 @@
+https://laumachado.github.io/viajando/site/	2019-11-25T00:16:31+00:00	1.00
+https://laumachado.github.io/viajando/site/escolha.html	2019-11-25T00:16:31+00:00	0.80
+https://laumachado.github.io/viajando/site/index.html	2019-11-25T00:16:31+00:00	0.64
+https://laumachado.github.io/viajando/site/sol.html	2019-11-25T00:16:31+00:00	0.64
+https://laumachado.github.io/viajando/site/mercurio.html	2019-11-25T00:16:31+00:00	0.64
+https://laumachado.github.io/viajando/site/venus.html	2019-11-25T00:16:31+00:00	0.64
+https://laumachado.github.io/viajando/site/terra.html	2019-11-25T00:16:31+00:00	0.64
+https://laumachado.github.io/viajando/site/marte.html	2019-11-25T00:16:31+00:00	0.64
+https://laumachado.github.io/viajando/site/jupiter.html	2019-11-25T00:16:31+00:00	0.64
+https://laumachado.github.io/viajando/site/urano.html	2019-11-25T00:16:31+00:00	0.64
+https://laumachado.github.io/viajando/site/netuno.html	2019-11-25T00:16:31+00:00	0.64
